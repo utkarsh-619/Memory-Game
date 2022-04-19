@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(37, 37, 37);
+    text-align: center;
+}
+
+h1{
+    color: red;
+    font-size: 4rem;
+}
+
+.container{
+    width: 550px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.red{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 5px solid white;
+    margin: 50px 0px;
+}
+
+.blue{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border: 5px solid white;
+    margin: 50px 0px;
+}
+.green{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border: 5px solid white;
+    margin: 50px 0px;
+}
+.yellow{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border: 5px solid white;
+    margin: 50px 0px;
+}
+
+.opacity{
+    opacity: 0.1;
+}
+
+footer{
+    font-size: 26px;
+    font-family: cursive;
+    color: blue;
+    text-shadow: -0.3px 0px yellow;
+}
